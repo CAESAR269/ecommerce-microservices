@@ -25,7 +25,7 @@ FROM mcr.microsoft.com/dotnet/sdk:latest as build
 WORKDIR /src
 # path are related to build context, here for us build context is root folder
 # https://docs.docker.com/build/building/context/
-COPY ./.editorconfig ./
+COPY ./editorconfig ./
 
 COPY ./src/Directory.Build.props ./
 COPY ./src/Directory.Build.targets ./
