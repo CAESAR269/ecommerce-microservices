@@ -23,5 +23,5 @@ stages:
         repository: 'caesar269 / catalogs'
         command: 'buildAndPush'
         Dockerfile: 
-        buildContext: ./src/Services/Catalogs/Dockerfile
+        buildContext: /src/Services/Catalogs/Dockerfile
         tags: 'latest'
